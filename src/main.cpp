@@ -9,6 +9,9 @@ int main( int argc, char **argv) {
 	int size = DEFAULT_SIZE;
 	double value = DEFAULT_VALUE;
 
+	if ( argc > 1)
+		size = atoi( argv[1]);
+
 	double* v1 = new double[size];
 
 
