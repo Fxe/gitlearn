@@ -7,13 +7,13 @@
 
 int main( int argc, char **argv) {
 	int size = DEFAULT_SIZE;
-
+	double value = DEFAULT_VALUE;
 
 	double* v1 = new double[size];
 
 
 	for ( int i = 0; i < size; i++)
-		v1[i] = DEFAULT_VALUE;
+		v1[i] = value;
 
 
 	double sum = 0;
