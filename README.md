@@ -1,4 +1,0 @@
-gitlearn
-========
-
-For learn
